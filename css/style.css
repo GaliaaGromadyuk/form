@@ -1,0 +1,119 @@
+
+body{
+	width: 100%;
+	height: 100%;
+	background: url('../img/main bg.png') no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	font-family: 'Arial';
+	position: relative;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 461px;
+	min-width: 461px;
+	margin: auto;
+}
+
+.ba-conteiner {
+	width: 461px;
+	height: 471px;
+	margin-top: 61px;
+	background: #ffffff;
+	padding: 31px;
+	position: relative;
+	border-radius: 4px;
+}
+
+.ba-form-header__title {
+	
+}
+
+.ba-form-header__icon {
+	float: left;
+	margin-right: 10px;
+}
+
+.ba-form-header__name {
+	font-size: 24px;
+	color: #1b1c1d;
+	font-weight: 700;
+}
+
+.ba-form-header__description {
+	font-size: 13px;
+	color:  #797b7f;
+	font-weight: 400;
+	line-height: 1.54;
+}
+
+a {
+	text-decoration: none;
+	color: #ea355a;
+}
+
+.ba-form__form {
+	height: 40px;
+	color:  #797b7f;
+	font-size: 14px;
+	line-height: 20px;
+	padding-left: 14px;
+	border-radius: 4px;
+	background-color:  #f0f0f0;
+	border: 1px solid transparent;
+}
+
+.ba-form__form:hover {
+	border: 1px solid #ea355a;
+}
+
+.ba-form__form-username{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+.ba-form__form-name {
+	width: calc(461px - 62px - 7.5px - 50%);
+}
+
+.ba-form__form-email, .ba-form__form-password {
+	margin-bottom: 15px;
+	width: calc(461px - 62px);
+}
+
+.ba-form__btn-submit {
+	width: calc(461px - 62px);
+	background-color:  #ea355a;
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	height: 50px;
+	border-radius: 4px;
+	border: none;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	border: 2px solid transparent;
+}
+
+.ba-form__btn-submit:focus {
+	outline: none;
+}
+
+.ba-form__btn-submit:hover {
+	background: #FE4F32;
+}
+
+.ba-form__btn-submit:active:focus{
+	background: #DD2476;
+}
+
+.ba-form-footer{
+	color:  #797b7f;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-top: 20px;
+}
